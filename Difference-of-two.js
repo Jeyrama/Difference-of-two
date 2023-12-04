@@ -16,3 +16,16 @@ Examples:
 
 
 // Solution
+
+function twosDifference(input) {
+  return input
+    .sort(function(a, b) {
+      return a - b
+    })
+    .filter(function(a) {
+      return input.indexOf(a+2) != -1
+    })
+    .map(function(a) {
+      return [a, a+2]
+    })
+}
