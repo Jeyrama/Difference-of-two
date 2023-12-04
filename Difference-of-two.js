@@ -13,3 +13,6 @@ Examples:
   [1, 23, 3, 4, 7] should return [[1, 3]]
   [4, 3, 1, 5, 6] should return [[1, 3], [3, 5], [4, 6]]
 */
+
+
+// Solution
