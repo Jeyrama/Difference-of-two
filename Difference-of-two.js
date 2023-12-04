@@ -29,3 +29,5 @@ function twosDifference(input) {
       return [a, a+2]
     })
 }
+
+// or
